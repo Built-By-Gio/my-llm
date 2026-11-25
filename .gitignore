@@ -1,0 +1,17 @@
+# Model checkpoint written by train.py (about 43 MB)
+ckpt.pt
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# Working notes
+tasks/

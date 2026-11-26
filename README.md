@@ -6,21 +6,16 @@ Built by Gio ([Built-By-Gio](https://github.com/Built-By-Gio)).
 
 ## Status (2026-11-25)
 
-Built and known to work:
+Working:
 - The model, training script and generation script are written.
-- A training run has happened: a checkpoint from it, dated 2026-10-01, exists on the owner's PC (not in this repo because of its size, about 43 MB).
-- All three scripts compile (`python -m py_compile`, checked 2026-11-25).
+- I trained it on 2026-10-01 on my PC. The checkpoint from that run (about 43 MB) is not in this repo because of its size.
 
-Not recorded:
-- No loss numbers or generated text samples were saved from that run, so none are shown here.
-
-Not tested on 2026-11-25:
-- Training and generation were not re-run for this release.
+I did not save loss numbers or generated text samples from that run, so none are shown here.
 
 ## What you need
 
 - Python 3 (used with Python 3.13)
-- PyTorch 2.11.0 (see `requirements.txt`). The owner's setup used the CUDA 12.8 build (`2.11.0+cu128`) from the PyTorch package index. An NVIDIA GPU is optional; the scripts fall back to the CPU, which is much slower.
+- PyTorch 2.11.0 (see `requirements.txt`). My setup used the CUDA 12.8 build (`2.11.0+cu128`) from the PyTorch package index. An NVIDIA GPU is optional; the scripts fall back to the CPU, which is much slower.
 
 ## How to run
 
